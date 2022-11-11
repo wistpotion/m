@@ -6,9 +6,7 @@ A problem encountered when using [hot reloading in defold](https://defold.com/ma
 
 ## Installation
 To use this, add it Defold  as a library dependency. Open your game.project file and in the dependencies field under project add:
-`https://github.com/wispotion/m/archive/master.zip`
-Or point to the ZIP file of a specific release:
-
+`https://github.com/wistpotion/m/archive/refs/tags/1.0.zip`, or add a different release.
 
 ## Usage
 Using `m` is very simple. When you declare a module with this format:
