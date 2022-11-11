@@ -4,6 +4,12 @@ A module debugging helper for defold
 ## Intro
 A problem encountered when using [hot reloading in defold](https://defold.com/manuals/hot-reload/) is that modules are not reimported by scripts and modules not reloaded. See [hot reloading modules](https://defold.com/manuals/modules/#hot-reloading-modules) to see why this happens and how it's fixed.
 
+## Installation
+To use this, add it Defold  as a library dependency. Open your game.project file and in the dependencies field under project add:
+`https://github.com/wispotion/m/archive/master.zip`
+Or point to the ZIP file of a specific release:
+
+
 ## Usage
 Using `m` is very simple. When you declare a module with this format:
 ```lua
