@@ -22,7 +22,7 @@ return M
 ```
 You simply replace the empty table in the start with `m(...)`. `...` is a variable that points to the path to the file (for example `main.potato`) when use in the top scope of the file. The new, hot reloadable module becomes:
 ```lua
-local m = require "m"
+local m = require "m.m"
 
 local M = m(...)
 
