@@ -1,5 +1,5 @@
 # m
-A module debugging helper for defold
+A module for creating modules in defold
 
 ## Intro
 A problem encountered when using [hot reloading in defold](https://defold.com/manuals/hot-reload/) is that modules are not reimported by scripts and modules not reloaded. See [hot reloading modules](https://defold.com/manuals/modules/#hot-reloading-modules) to see why this happens and how it's fixed.
