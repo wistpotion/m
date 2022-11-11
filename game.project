@@ -13,6 +13,8 @@ input_method = HiddenInputField
 
 [project]
 title = m
+publisher = wistpotion
+developer = wistpotion
 
 [library]
 include_dirs = m
